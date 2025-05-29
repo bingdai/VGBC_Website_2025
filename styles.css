@@ -164,12 +164,47 @@ header {
     padding: 0 20px;
 }
 
+/* Featured Service Time - Prominent Display */
+.featured-service {
+    background: rgba(45, 55, 72, 0.95);
+    color: white;
+    padding: 24px 32px;
+    border-radius: 16px;
+    margin: 2rem 20px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    border: 2px solid #4a5568;
+}
+
+.featured-service h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #e2e8f0;
+}
+
+.featured-service .service-time {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.featured-service .service-desc {
+    font-size: 1.2rem;
+    color: #cbd5e0;
+    margin: 0;
+    font-weight: 500;
+}
+
 .hero-buttons {
     display: flex;
     flex-direction: column;
     gap: 12px;
     align-items: center;
     padding: 0 20px;
+    margin-top: 1.5rem;
 }
 
 /* Mobile-First Buttons */
@@ -621,6 +656,25 @@ footer {
         font-size: 1.5rem;
     }
     
+    /* Featured service - tablet */
+    .featured-service {
+        padding: 32px 48px;
+        margin: 2.5rem auto;
+        max-width: 500px;
+    }
+    
+    .featured-service h3 {
+        font-size: 2.2rem;
+    }
+    
+    .featured-service .service-time {
+        font-size: 3rem;
+    }
+    
+    .featured-service .service-desc {
+        font-size: 1.4rem;
+    }
+    
     .hero-buttons {
         flex-direction: row;
         justify-content: center;
@@ -759,6 +813,25 @@ footer {
     }
     
     .hero-content p {
+        font-size: 1.6rem;
+    }
+    
+    /* Featured service - desktop */
+    .featured-service {
+        padding: 40px 60px;
+        margin: 3rem auto;
+        max-width: 600px;
+    }
+    
+    .featured-service h3 {
+        font-size: 2.5rem;
+    }
+    
+    .featured-service .service-time {
+        font-size: 3.5rem;
+    }
+    
+    .featured-service .service-desc {
         font-size: 1.6rem;
     }
     
