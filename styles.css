@@ -164,38 +164,41 @@ header {
     padding: 0 20px;
 }
 
-/* Featured Service Time - Prominent Display */
+/* Featured Service Banner - Sleek Horizontal Style */
 .featured-service {
     background: rgba(45, 55, 72, 0.95);
     color: white;
-    padding: 24px 32px;
-    border-radius: 16px;
-    margin: 2rem 20px;
+    padding: 12px 20px;
+    margin: 1.5rem 20px;
     text-align: center;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-    border: 2px solid #4a5568;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    min-height: 50px;
 }
 
 .featured-service h3 {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin: 0;
     color: #e2e8f0;
 }
 
 .featured-service .service-time {
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 0.5rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin: 0;
 }
 
 .featured-service .service-desc {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #cbd5e0;
     margin: 0;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .hero-buttons {
@@ -311,6 +314,42 @@ section h2 {
     border-radius: 8px;
     border: 1px solid #a0aec0;
     margin: 0 4px;
+}
+
+/* Church Interior Section */
+.church-interior-section {
+    margin: 3rem 0 2rem;
+    text-align: center;
+}
+
+.church-interior-section h3 {
+    color: #e2e8f0;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.services-image {
+    text-align: center;
+    margin: 0;
+}
+
+.church-indoor-photo {
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    border: 1px solid #4a5568;
+}
+
+.image-caption {
+    margin-top: 1rem;
+    color: #cbd5e0;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* Service Cards Mobile */
@@ -656,23 +695,24 @@ footer {
         font-size: 1.5rem;
     }
     
-    /* Featured service - tablet */
+    /* Featured service banner - tablet */
     .featured-service {
-        padding: 32px 48px;
-        margin: 2.5rem auto;
-        max-width: 500px;
+        padding: 14px 32px;
+        margin: 1.5rem auto;
+        max-width: 600px;
+        min-height: 55px;
     }
     
     .featured-service h3 {
-        font-size: 2.2rem;
+        font-size: 1.2rem;
     }
     
     .featured-service .service-time {
-        font-size: 3rem;
+        font-size: 1.4rem;
     }
     
     .featured-service .service-desc {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     
     .hero-buttons {
@@ -816,23 +856,24 @@ footer {
         font-size: 1.6rem;
     }
     
-    /* Featured service - desktop */
+    /* Featured service banner - desktop */
     .featured-service {
-        padding: 40px 60px;
-        margin: 3rem auto;
-        max-width: 600px;
+        padding: 16px 40px;
+        margin: 1.5rem auto;
+        max-width: 700px;
+        min-height: 60px;
     }
     
     .featured-service h3 {
-        font-size: 2.5rem;
+        font-size: 1.3rem;
     }
     
     .featured-service .service-time {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     
     .featured-service .service-desc {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     
     section {
@@ -850,6 +891,16 @@ footer {
     
     .church-photo {
         height: 300px;
+    }
+    
+    /* Church interior section - desktop */
+    .church-interior-section h3 {
+        font-size: 2rem;
+    }
+    
+    .church-indoor-photo {
+        height: 350px;
+        max-width: 800px;
     }
     
     .event-item {
