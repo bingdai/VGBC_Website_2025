@@ -47,14 +47,14 @@ header {
 }
 
 .logo-img {
-    height: 40px;
+    height: 35px;
     width: auto;
     flex-shrink: 0;
 }
 
 .logo-text h1 {
     color: #1a202c;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 0.1rem;
     line-height: 1.2;
@@ -63,7 +63,7 @@ header {
 
 .logo-text .english-name {
     color: #4a5568;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 400;
     margin: 0;
     line-height: 1.2;
@@ -539,16 +539,25 @@ footer {
         padding: 0 32px;
     }
     
+    .nav-container {
+        padding: 10px 32px;
+        min-height: 50px;
+    }
+    
     .logo-img {
-        height: 45px;
+        height: 38px;
     }
     
     .logo-text h1 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .logo-text .english-name {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
+    }
+    
+    .hero {
+        margin-top: 50px;
     }
     
     .hero-content h2 {
@@ -625,7 +634,8 @@ footer {
     }
     
     .nav-container {
-        padding: 16px 40px;
+        padding: 8px 40px;
+        min-height: 45px;
     }
     
     .nav-menu {
@@ -652,19 +662,20 @@ footer {
     }
     
     .logo-img {
-        height: 50px;
+        height: 40px;
     }
     
     .logo-text h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     
     .logo-text .english-name {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     .hero {
         padding: 120px 0 80px;
+        margin-top: 45px;
     }
     
     .hero-content h2 {
