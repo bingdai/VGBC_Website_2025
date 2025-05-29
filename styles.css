@@ -638,26 +638,37 @@ footer {
     }
     
     .nav-menu {
-        position: static;
-        flex-direction: row;
-        background: transparent;
-        box-shadow: none;
-        padding: 0;
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        flex-direction: row !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        padding: 0 !important;
         gap: 2rem;
-        backdrop-filter: none;
-        max-height: none;
-        overflow: visible;
+        backdrop-filter: none !important;
+        max-height: none !important;
+        overflow: visible !important;
+        width: auto !important;
+        text-align: left !important;
+        display: flex !important;
     }
     
     .nav-menu a {
-        padding: 8px 0;
-        border-bottom: none;
-        font-size: 1rem;
+        padding: 4px 8px !important;
+        border-bottom: none !important;
+        font-size: 0.9rem;
         background: transparent !important;
+        display: inline-block !important;
     }
     
     .hamburger {
-        display: none;
+        display: none !important;
+    }
+    
+    .nav-menu li {
+        margin: 0 !important;
+        display: inline-block !important;
     }
     
     .logo {
