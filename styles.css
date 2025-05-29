@@ -41,6 +41,14 @@ header {
     color: #1a202c;
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.logo .english-name {
+    color: #4a5568;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0;
 }
 
 .nav-menu {
