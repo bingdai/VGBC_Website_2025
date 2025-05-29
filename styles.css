@@ -40,6 +40,12 @@ header {
     min-height: 60px;
 }
 
+.logo-img {
+    height: 40px;
+    width: auto;
+    margin-bottom: 0.2rem;
+}
+
 .logo h1 {
     color: #1a202c;
     font-size: 1.2rem;
@@ -247,6 +253,15 @@ section h2 {
     justify-content: center;
     color: #718096;
     font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #a0aec0;
+    margin: 0 4px;
+}
+
+.church-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 8px;
     border: 1px solid #a0aec0;
     margin: 0 4px;
@@ -517,6 +532,10 @@ footer {
         padding: 0 32px;
     }
     
+    .logo-img {
+        height: 45px;
+    }
+    
     .logo h1 {
         font-size: 1.4rem;
     }
@@ -625,6 +644,10 @@ footer {
         display: none;
     }
     
+    .logo-img {
+        height: 50px;
+    }
+    
     .logo h1 {
         font-size: 1.5rem;
     }
@@ -655,6 +678,10 @@ footer {
     }
     
     .placeholder-image {
+        height: 300px;
+    }
+    
+    .church-photo {
         height: 300px;
     }
     
